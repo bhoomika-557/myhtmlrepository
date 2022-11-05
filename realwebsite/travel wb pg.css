@@ -1,0 +1,404 @@
+nav{
+    /* display : flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 15px;
+    /* background-color: bisque; */
+    
+}
+.img{
+    background-image: url(/realwebsite/image8.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:792px;
+   
+}
+
+body{
+    /* background-image: url(/realwebsite/images7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    
+
+   
+    margin:0;
+    padding:0;
+}
+.logoclr{
+    color:rgb(239, 239, 227);
+    margin-left:5px;
+}
+
+.flex {
+    display: flex;
+    font-size: 20px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-top {
+    align-items: top;
+
+}
+.justify-content-between{
+    justify-content: space-around;
+}
+.liststyle{
+    list-style-type: none;
+    margin :0 40px ;
+    
+}
+.liststyle > li > a{
+    margin:0 40px;  
+    text-decoration: none;
+    color:white; 
+}
+
+    
+/* .liststyle li a{
+    text-decoration: none;
+    color:white;
+} */
+
+.button{
+    border-style: none;
+    background-color: white;
+    color:black;
+    border-radius: 50px;
+    padding:11px;
+    text-decoration: none;
+}
+    
+
+ h1{
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 12%;
+    color: aliceblue;
+}
+.searchbox{
+    background-color: white;
+    width:60%;
+    margin :30px auto;
+    padding:6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.searchbox form{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.searchbox form input{
+    display: block;
+    border:none;
+    outline: none;
+    background: transparent;
+}
+.searchbox form button{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+}
+.location-input{
+    flex:1;
+} 
+/******************EXCLUSIVE********************/
+.exclusive {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap:40px; */
+  align-items: center;
+  justify-content: space-between;
+
+}
+.sub-title {
+ margin: 50px 0 20px;
+ font-size: 30px;
+ color:rgb(59, 8, 8);
+
+}
+.container{
+    margin:7%;
+}
+.exclusive div img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin:10px 10px;
+}
+.exclusive div span{
+    
+    /* position:absolute;
+    top:50%; 
+    left:40%; */
+    /* transform: translate(-50%,-50%);  */
+     text-align: center; 
+}
+
+/* .container > .trendingplaces >*/ .trending > img{ 
+    width:300px;
+    height:300px;
+    border-radius: 20px;
+    
+}
+.trendingplaces {
+    display:flex;
+    flex-wrap: wrap; 
+   
+    /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap:40px; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+  }
+  .trending span h3{
+    text-align: center;
+    font-size:20px;
+    border:none;
+    padding-bottom: 10px;
+  }
+
+  /*--------------KNOW MORE BUTTON------------------------- */
+  .knowmoreclass{
+    background-image: linear-gradient(to right, #4e2825, transparent), url(/realwebsite/sofa.jpg);
+    background-size: cover;
+    margin:10%;
+    border:none;
+    border-radius: 10px;
+  }
+  .knowmore2{
+    margin:30px;
+    padding:40px;
+    padding-bottom: 50px;
+  }
+  .knowmoreclass > .knowmore2 > h2{
+    font-size:50px;
+    color: aliceblue;
+    margin-top:15px;
+  }
+  .knowmoreclass > .knowmore2 > p{
+    font-size:27px;
+    color: aliceblue;
+    margin-bottom: 52px;
+  }
+  .knowmorebutton{
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    background-color: rgb(235, 92, 73);
+    margin-top: 50px;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  /* ******************TRAVELLER'S STRORIES******************************* */
+.travellerstories{
+    margin:100px;
+}
+
+.tcimages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.tsimg {
+    text-align: center;
+    width:330px;
+}
+.tsimg > img{
+    width:330px;
+    height:300px;
+    text-align: center;
+    border-radius: 10px;
+}   
+.tcimg > p{
+    text-align: center;
+} 
+.tsimg > span > p{
+    text-align: center;
+}
+
+/* **************************************************** */
+.startclass{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.start-button > a{
+    border-style:none;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right:40px;
+    background-color: rgb(244, 104, 104);
+    text-decoration: none;
+    color:white;
+}
+.startdescription > p{
+    margin:30px;
+    text-align: center;
+}
+.starth2 > h2{
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-family: verdana;
+    font-weight: 500;
+    
+}
+.iconsclass{
+    text-align: center;
+    padding-top:50px;
+}
+.iconsclass > a{
+    font-size: 22px;
+    margin:0 10px;
+    color: rgb(112, 110, 110);
+}
+.iconsclass > hr{
+      background: #999;
+      height:1px;
+      width:100%;
+      border:0;
+      margin:20px;
+}
+.iconsclass > p{
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hamburger{
+    display:none;
+}
+/* .fa-magnifying-glass-location{
+    font-size:25px;
+    } */
+@media screen and (max-width : 941px){
+    .navbar{
+        display:none;
+    }
+    .hamburger > i{
+        
+        color:white;
+        margin:15px;
+        margin-right: 30px;
+        font-size: 25px;
+    }
+    .hamburger{
+        text-align: right;
+        display:block;
+    }
+    
+}
+@media screen and (max-width:1270px){
+    .tsimg {
+        text-align: center;
+        width:200px;
+    }
+    .tsimg > img{
+        width:207px;
+        height:217px;
+        text-align: center;
+        border-radius: 10px;
+    }   
+}
+@media screen and (max-width:873px){
+    .tsimg > img{
+        width:400px;
+        height:350px;
+        
+    }   
+    .tsimg > img{
+        width:100%;
+        height:100%;
+        text-align: center;
+        
+    }   
+    .tcimages{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+    
+    } 
+    .travellerstories{
+        margin:0;
+    }
+    .tsh2 > h2{
+        text-align: center;
+    }
+      
+}
+@media screen and (max-width:350px){
+
+    .tcimages{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+    
+    } 
+    .tsimg > img{
+        width:200px;
+        height:270px;
+        
+    }   
+    .tsimg > img{
+        width:100%;
+        height:100%;
+        text-align: center;
+        
+    }   
+
+}
+@media screen and (max-width:763px){
+    .knowmore2{
+        margin:0;
+        text-align: center;
+    }
+    .knowmoreclass{
+        /* margin:20px;
+    */
+    }
+}
+@media screen and (max-width:425px){
+    .kn.knowmoreclass > .knowmore2 > p{
+        font-size: 16px;
+        
+    }
+    .knowmoreclass > .knowmore2 > h2{
+        font-size:20px;
+}
+
+}
+@media screen and (max-width:761px){
+    .knowmoreclass > .knowmore2 > h2{
+        font-size: 40px;
+    }
+    .knowmoreclass > .knowmore2 > p{
+        font-size:18px ;
+    }
+}
+@media screen and (max-width:443px){
+    .knowmoreclass > .knowmore2 > h2{
+        font-size:32px;
+    }
+    .knowmoreclass > .knowmore2 > p{
+        font-size:15px;
+    }
+}
